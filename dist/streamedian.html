@@ -19,8 +19,8 @@
 
 
 <video id="test_video" controls autoplay>
-    <!--<source src="rtsp://192.168.10.205:554/ch01.264" type="application/x-rtsp">-->
-    <!--<source src="rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov" type="application/x-rtsp">-->
+    <source src="rtsp://192.168.10.205:554/ch01.264" type="application/x-rtsp">
+    <source src="rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov" type="application/x-rtsp">
 </video>
 
 <script src="streamedian.min.js"></script>
@@ -33,7 +33,7 @@
 
         var playerOptions = {
             // socket: "wss://streamedian.com/ws/",
-            socket: "ws://182.61.56.51:3099/ws/",
+            socket: "wss://streamedian.com/ws/",
             redirectNativeMediaErrors : true,
             bufferDuration: 30,
             errorHandler: errHandler

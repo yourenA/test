@@ -1,0 +1,22 @@
+body {
+    max-width: 720px;
+    margin: 50px auto;
+}
+
+#test_video {
+    width: 720px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input.input, .form-inline .input-group>.form-control {
+    width: 300px;
+}
+button {
+    margin: 5px
+}
